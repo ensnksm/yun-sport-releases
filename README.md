@@ -2,6 +2,8 @@
 
 此仓库用于发布安装包与签名更新清单。Windows 客户端、Windows 卡密管理器、安卓客户端、安卓卡密管理器采用同一发布批次，当前同步协议为 3。
 
+当前共同版本为 [0.1.2](https://github.com/ensnksm/yun-sport-releases/releases/tag/v0.1.2)。安卓客户端已在真机从 0.1.0 经软件内更新升级到 0.1.2；手机管理器实际连接电脑并显示真实绑定账号。学校账号完整登录与跑步流程尚未在手机版验收。
+
 ## 安装与更新
 
 从 [Releases](https://github.com/ensnksm/yun-sport-releases/releases) 下载对应文件。第一次需要手动安装带更新功能的版本，以后可在程序内检查更新。APK 仅支持 Android 10 及以上的 ARM64 手机；iPhone 原生版尚未发布。
