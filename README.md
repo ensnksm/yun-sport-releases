@@ -1,4 +1,4 @@
-# 云运动个人版发布
+# 个人版发布
 
 此仓库仅发布 Windows 与安卓云运动客户端及签名更新清单，当前同步协议为 3。卡密管理器仅由所有者在本机保留和维护。
 
@@ -10,7 +10,7 @@
 
 安卓安装更新需要系统确认。Windows 更新保留授权数据，保留一份旧 EXE；运行任务期间延后安装。
 
-公开文件严格限于 `android-client.apk`、`windows-client.exe`、`updates.json`、`SHA256SUMS.txt`。三个历史版本的卡密管理器附件已撤下，更新清单只含云运动客户端。
+公开文件严格限于 `android-client.apk`、`windows-client.exe`、`updates.json`、`SHA256SUMS.txt`。三个历史版本的卡密管理器附件已撤下，更新清单只含客户端。
 
 仓库及版本标签只保存这份安装说明，没有项目源码。GitHub 自动显示的 `Source code (zip/tar.gz)` 归档只包含安装说明。
 
@@ -22,10 +22,9 @@
 
 GitHub 提供安装包下载；卡密验证由已授权准入的互联设备完成，仍受不同账号和共同确认规则限制。国内网络访问 GitHub 的情况不同，不保证任意 Wi-Fi 能下载或连接到所有节点。
 
-更新清单使用单独的 Ed25519 发布签名，客户端下载后校验大小和 SHA-256。APK 使用固定 RSA 应用签名并启用 R8。混淆和本地校验不能保证客户端永远无法被修改；发卡私钥和管理权限在可信端校验。
+更新清单使用单独的 Ed25519 发布签名，客户端下载后校验大小和 SHA-256。APK 使用固定 RSA 应用签名并启用 R8。
 
-管理员密钥、卡密数据库、账号密码、登录 Token 和手机管理员授权文件均不发布到此仓库。
 
 ## 项目来源
 
-学校业务逻辑基于 [Zirconium233/yunForNewVersion](https://github.com/Zirconium233/yunForNewVersion)。本仓库不是原作者维护的官方仓库。联网使用 Hyperswarm、Autobase、Corestore、Hyperbee、Protomux；安卓运行时使用 Bare Kit 和 Chaquopy。
+联网使用 Hyperswarm、Autobase、Corestore、Hyperbee、Protomux；安卓运行时使用 Bare Kit 和 Chaquopy。
